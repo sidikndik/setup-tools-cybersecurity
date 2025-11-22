@@ -46,9 +46,12 @@ Tambahkan user ke grup docker:
 ```bash
 sudo usermod -aG docker $USER
 ```
-
 logout dulu (restart laptopnya)
 
+Test Docker:
+```bash
+docker run hello-world
+```
 
 ## Install Golang 1.25
 
